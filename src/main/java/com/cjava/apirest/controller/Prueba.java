@@ -9,6 +9,7 @@ public class Prueba {
 
 
 
+
     private String nombreClase(){
         return "hola";
     }
@@ -17,7 +18,15 @@ public class Prueba {
         return "hola ddd";
     }
 
-    private String nombreClase3(){
+    private String nombreClase3() {
         return "hola dddssss";
+    }
+    private String de(){
+        return "";
+    }
+
+    private String de2(){
+        return "s";
+
     }
 }
