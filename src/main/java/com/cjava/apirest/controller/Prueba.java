@@ -10,4 +10,8 @@ public class Prueba {
     private String de(){
         return "";
     }
+
+    private String de2(){
+        return "s";
+    }
 }
