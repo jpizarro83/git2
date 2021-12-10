@@ -7,4 +7,9 @@ public class Prueba {
     private int id5;
     private int id4;
 
+
+
+    private String nombreClase(){
+        return "hola";
+    }
 }
