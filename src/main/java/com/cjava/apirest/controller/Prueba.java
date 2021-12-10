@@ -16,4 +16,8 @@ public class Prueba {
     private String nombreClase2(){
         return "hola ddd";
     }
+
+    private String nombreClase3(){
+        return "hola dddssss";
+    }
 }
