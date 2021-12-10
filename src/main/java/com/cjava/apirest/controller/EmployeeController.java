@@ -66,4 +66,18 @@ public class EmployeeController
 		Employee emp = new Employee(id, newEmployee.getFirstName(), newEmployee.getLastName(), newEmployee.getEmail());
 		return emp;
 	}
+
+	@PostMapping("/employee4")
+	public Employee addEmployee4(@RequestBody Employee newEmployee){
+		String id = String.valueOf(new Random().nextInt());
+		Employee emp = new Employee(id, newEmployee.getFirstName(), newEmployee.getLastName(), newEmployee.getEmail());
+		return emp;
+	}
+
+	@PostMapping("/employee5")
+	public Employee addEmployee5(@RequestBody Employee newEmployee){
+		String id = String.valueOf(new Random().nextInt());
+		Employee emp = new Employee(id, newEmployee.getFirstName(), newEmployee.getLastName(), newEmployee.getEmail());
+		return emp;
+	}
 }
