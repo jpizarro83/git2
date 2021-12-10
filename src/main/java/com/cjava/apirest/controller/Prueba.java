@@ -7,11 +7,26 @@ public class Prueba {
     private int id5;
     private int id4;
 
+
+
+
+    private String nombreClase(){
+        return "hola";
+    }
+
+    private String nombreClase2(){
+        return "hola ddd";
+    }
+
+    private String nombreClase3() {
+        return "hola dddssss";
+    }
     private String de(){
         return "";
     }
 
     private String de2(){
         return "s";
+
     }
 }
